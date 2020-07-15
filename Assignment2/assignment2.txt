@@ -1,0 +1,24 @@
+Q. WHAT IS DIFFERENCE BETWEEN VAR AND CONST WITH CODE EXAMPLE?
+ANS.var declarations are globally scoped or function scoped while let and const are block scoped.
+    var variables can be updated and re-declared within its scope but const variables can neither be updated nor re-declared or 
+    let variables can be updated but not re-declared
+for example 
+var a = 10;
+var b = 10;
+var a = 20;   //then the value of a is updated
+ 
+const a =20;
+   a = 30;     //it will throw uncaught type error: Assignment to constant variable.
+let a = 45;
+   a=24;//we can update it but not re declare it again
+ 
+
+
+
+Q. WRITE A BRIEF INTRO ON AVAILABLE DATATYPE IN JAVASCRIPT?
+Ans. 1> Number: It will take any integer or floating number as a input
+     2> String: It represent sequence of character
+         eg. String a ="shreyan"
+     3> Boleans: Its will return true or false value
+     4> Undefined: It is used to represent undefined term
+     5>  Null:      It is used to represent null value i.e. no value at all
